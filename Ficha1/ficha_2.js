@@ -111,7 +111,12 @@ drawbox(10, 10)
 
 
 
-var student1 = { firstname: "pedro", lastname: "Marques", age: 25, grade: 16.5 };
+var student1 = {
+    firstname: "pedro", lastname: "Marques", age: 25, grade: 16.5, getgrade: function () {
+        return this.firstname + " " + this.lastname + "com idade:" + this.age + " teve:" + this.grade
+
+    }
+};
 var student2 = { firstname: "david", lastname: "tiago", age: 28, grade: 15.5 };
 var student3 = { firstname: "joao", lastname: "luis", age: 23, grade: 18.5 };
 var student4 = { firstname: "marco", lastname: "santos", age: 16, grade: 12 };
@@ -122,6 +127,7 @@ var student8 = { firstname: "paulo", lastname: "santos", age: 48, grade: 1.5 };
 var student9 = { firstname: "andre", lastname: "figueira", age: 58, grade: 16.5 };
 
 var studentlist = [];
+
 studentlist.push(student1);
 studentlist.push(student2);
 studentlist.push(student3);
@@ -133,3 +139,14 @@ studentlist.push(student8);
 studentlist.push(student9);
 
 
+
+function displaygrades(array) {
+    for (let i = 0; i < array.length; i++) {
+        const student = array[i];
+        console.log();
+
+    }
+
+}
+console.log("alinea 9");
+displaygrades(studentlist)
