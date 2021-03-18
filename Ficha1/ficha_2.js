@@ -82,3 +82,54 @@ function drawrtriangle(heigth) {
 }
 drawrtriangle(10)
 
+
+function drawbox(width, heigth) {
+    for (let j = 0; j <= heigth; j++) {
+        var line = "";
+
+        for (let i = 0; i < width; i++) {
+
+            if (j == 0 || j == heigth || i == 0 || i == width - 1) {
+                line += "*";
+            }
+            else {
+                line += " ";
+            }
+        }
+        console.log(line)
+    }
+}
+drawbox(10, 10)
+
+
+
+
+
+// alinea 9 ======================================================================================
+
+
+
+
+
+var student1 = { firstname: "pedro", lastname: "Marques", age: 25, grade: 16.5 };
+var student2 = { firstname: "david", lastname: "tiago", age: 28, grade: 15.5 };
+var student3 = { firstname: "joao", lastname: "luis", age: 23, grade: 18.5 };
+var student4 = { firstname: "marco", lastname: "santos", age: 16, grade: 12 };
+var student5 = { firstname: "sofia", lastname: "bond", age: 76, grade: 13.5 };
+var student6 = { firstname: "ana", lastname: "freitas", age: 23, grade: 13 };
+var student7 = { firstname: "joana", lastname: "sol", age: 21, grade: 19.5 };
+var student8 = { firstname: "paulo", lastname: "santos", age: 48, grade: 1.5 };
+var student9 = { firstname: "andre", lastname: "figueira", age: 58, grade: 16.5 };
+
+var studentlist = [];
+studentlist.push(student1);
+studentlist.push(student2);
+studentlist.push(student3);
+studentlist.push(student4);
+studentlist.push(student5);
+studentlist.push(student6);
+studentlist.push(student7);
+studentlist.push(student8);
+studentlist.push(student9);
+
+
