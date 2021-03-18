@@ -142,14 +142,19 @@ for (let j = 1; j <= 3; j++) {
 console.log(fact); */
 
 
-var array = [1, 4, 5, 7, 0, 12];
+// var array = [1, 4, 5, 7, 0, 12];
 
 
-var max = array[0];
+// var max = array[0];
 
-for (let i = 1; i < array.length; i++) {
-    if (array[i] > max) {
-        max = array[i];
-    }
-}
-console.log(max)
+// for (let i = 1; i < array.length; i++) {
+//     if (array[i] > max) {
+//         max = array[i];
+//     }
+// }
+// console.log(max)
+
+
+
+
+
